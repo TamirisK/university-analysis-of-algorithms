@@ -41,13 +41,16 @@ public class Main {
     }
 
         public static void main(String[] args) {
-        int arraySize = 5;
+            int arraySize = 5;
 
-//        int[] array = {-1, 2, 3, -4, 5, 6, -7, 8, 9, -10};
-        int[] array = createArray(arraySize);
+    //        int[] array = {-1, 2, 3, -4, 5, 6, -7, 8, 9, -10};
+            int[] array = createArray(arraySize);
 
-        System.out.println("Original Array: " + Arrays.toString(array));
-        rearrangeArray(array);
-        System.out.println("Rearranged Array: " + Arrays.toString(array));
+            System.out.println("Original Array: " + Arrays.toString(array));
+            rearrangeArray(array);
+            System.out.println("Rearranged Array: " + Arrays.toString(array));
+
+            System.out.println("Time complexity: O(n)");
+            System.out.println("Space complexity: O(1)");
     }
 }
